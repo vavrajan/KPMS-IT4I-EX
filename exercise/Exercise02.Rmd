@@ -11,7 +11,7 @@ We will clone an existing GitHub repository to karolina and run it. Then play wi
 
 ## Working over ssh and cloning an existing repository
 
-1. Open a terminal window and login to karolina.it4i.cz
+1. Open a terminal window and login to karolina.it4i.cz 
 2. Clone the GitHub "RBigData/mpi_balance" repository
    a. Find it on GitHub
    b. Copy its "clone" url (the green Code button)
