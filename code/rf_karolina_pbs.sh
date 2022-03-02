@@ -8,13 +8,8 @@
 cd ~/KPMS-IT4I-EX/code
 pwd
 
-## module names can vary on different platforms
 module load R
 echo "loaded R"
-
-## prevent warning when fork is used with MPI
-#export OMPI_MCA_mpi_warn_on_fork=0
-#export RDMAV_FORK_SAFE=1
 
 time Rscript rf_serial.r
 time Rscript rf_mc.r 1
