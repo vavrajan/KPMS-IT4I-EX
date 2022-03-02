@@ -1,7 +1,7 @@
 library(parallel)
 library(randomForest)
 data(LetterRecognition, package = "mlbench")
-set.seed(seed = 7654321, "L'Ecuyer-CMRG")
+set.seed(seed = 123, "L'Ecuyer-CMRG")
 
 n = nrow(LetterRecognition)
 n_test = floor(0.2 * n)
